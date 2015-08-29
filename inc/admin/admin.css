@@ -1,0 +1,59 @@
+/*
+Stylesheet: OSF Admin stylesheet
+Author: Eric Daams
+Author URI: http://ericnicolaas.com
+*/
+
+
+/* Metaboxes
+-------------------------------------*/
+.osfa_button_container,
+#gallery_photos ul {
+	float: left;
+	width: 100%;
+}
+
+#gallery_photos .inside {
+	overflow: hidden;
+}
+
+#gallery_photos li {
+	float: left;
+	margin-right: 10px;
+}
+
+.osfa_button_container {
+	margin: 10px 0;
+}
+
+
+/* Settings API 
+-------------------------------------*/
+ul.checklist {
+	margin: 0;
+}
+
+ul.checklist li {
+	margin-bottom: 0;
+}
+
+ul.checklist input {
+	margin-right: 6px;
+	margin-top: 0;
+}
+
+.appearance_page_hitched-options input[type=text] {
+	min-width: 350px;
+}
+
+.appearance_page_hitched-options input.small {
+	width: 60px;
+}
+
+.appearance_page_hitched-options input.tiny {
+	width: 30px;
+}
+
+.appearance_page_hitched-options p {
+	width: 380px;
+}

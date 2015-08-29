@@ -1,0 +1,68 @@
+/*
+ABOUT THIS STYLESHEET:
+This stylesheet is used by versions of Internet Explorer IE8 and earlier. 
+*/
+
+/* Remove shadows on thumbnails */
+.gallery.thumbnails li:after {
+	background: none !important;
+}
+
+/* Fix incorrect positioning of banner & date on homepage */
+.home #header hgroup {
+	bottom: 23px !important;
+}
+
+.home #header h3 {
+	bottom: 10px !important;
+}
+
+/* 
+PIE.js adds box-shadow and border-radius capabilities to some elements, 
+but it is not able to apply it to the panels for some reason. 
+*/
+.panel {
+	border-radius: 0px !important;
+}
+
+/* nth-child will not work for the widget gallery, since it's dynamically loaded, 
+so target classes instead */
+
+/* Open widget */
+.open.osf_flickr_widget li.fetched-3,
+.open.osf_flickr_widget li.fetched-7,
+.open.osf_flickr_widget li.fetched-11,
+.open.osf_flickr_widget li.fetched-15,
+.open.osf_flickr_widget li.fetched-19,
+.open.osf_flickr_widget li.fetched-23,
+.open.osf_flickr_widget li.fetched-27,
+.open.osf_flickr_widget li.fetched-31,
+.open.osf_insta_widget li.fetched-3,
+.open.osf_insta_widget li.fetched-7,
+.open.osf_insta_widget li.fetched-11,
+.open.osf_insta_widget li.fetched-15,
+.open.osf_insta_widget li.fetched-19,
+.open.osf_insta_widget li.fetched-23,
+.open.osf_insta_widget li.fetched-27,
+.open.osf_insta_widget li.fetched-31,
+/* Panel widget */
+.panel.osf_flickr_widget li.fetched-2,
+.panel.osf_flickr_widget li.fetched-5,
+.panel.osf_flickr_widget li.fetched-8,
+.panel.osf_flickr_widget li.fetched-11,
+.panel.osf_flickr_widget li.fetched-14,
+.panel.osf_flickr_widget li.fetched-17,
+.panel.osf_flickr_widget li.fetched-20,
+.panel.osf_flickr_widget li.fetched-23,
+.panel.osf_flickr_widget li.fetched-26,
+.panel.osf_insta_widget li.fetched-2,
+.panel.osf_insta_widget li.fetched-5,
+.panel.osf_insta_widget li.fetched-8,
+.panel.osf_insta_widget li.fetched-11,
+.panel.osf_insta_widget li.fetched-14,
+.panel.osf_insta_widget li.fetched-17,
+.panel.osf_insta_widget li.fetched-20,
+.panel.osf_insta_widget li.fetched-23,
+.panel.osf_insta_widget li.fetched-26 {
+	margin-right: 0;
+}

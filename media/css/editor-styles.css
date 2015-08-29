@@ -1,0 +1,56 @@
+ul.horizontal {
+	padding-left: 16px;
+	width: 100%;
+	float: left;
+	margin-top: 0;
+}
+
+ul.horizontal li {
+	float: left;
+	margin-right: 20px;
+}
+
+ul.icons {
+	list-style: none;
+	padding-left: 16px;	
+}
+
+ul.icons em,
+ul.icons i {
+	margin-right: 4px; margin-right: 0.4rem;
+	font-size: 0.85em;
+}
+
+.underline {
+	border-bottom: 1px dashed #999;
+	padding-bottom: 10px;
+}
+
+.overline {
+	border-top: 1px dashed #999;
+	padding-top: 10px;
+}
+
+blockquote {
+	position: relative;
+}
+
+blockquote:before {
+	content: "\201C";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font: 68px Georgia, 'Times New Roman', Times, serif;
+	margin-top: -10px;
+	margin-left: -32px;
+}
+
+.section_label {
+	text-transform: uppercase !important;
+	font-size: 14px !important;
+}
+
+.alt {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
